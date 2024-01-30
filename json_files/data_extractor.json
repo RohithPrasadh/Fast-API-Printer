@@ -1,0 +1,68 @@
+{
+  "text_data": {
+    "lotNumber": [
+      "Lot no:",
+      "(1T)LOT",
+      "LOT NO:",
+      "LOT:",
+      "(1T)B/N:",
+      "Lot No.:",
+      "LOT NO(1T):",
+      "(1T) L/C"
+    ],
+    "manufacturingDate": ["DATE:", "DC:", "(10D)D/C:", "D/C:", "(10D) D/C:"],
+    "partNumber": [
+      "PN",
+      "P/N:",
+      "(1P)CODENO",
+      "PART NO:",
+      "TYPE",
+      "(1P)MPN:",
+      "PARTS NO.",
+      "P/N:  ",
+      "<1P>OUR P/N:",
+      "ITEM(1P)",
+      "(6P)PROD ID:",
+      "Royalohm Part:",
+      "(30P)TYPE"
+    ],
+    "quantity": ["QTY", "QTY:", "QUANTITY:", "QTY(Q)"]
+  },
+  "non_ecia_standard_data": {
+    "lotNumber": ["LOT NO:"],
+    "manufacturingDate": [],
+    "partNumber": ["TYPE", "PART NO:"],
+    "quantity": ["QTY", "QUANTITY"]
+  },
+  "ecia_standard_data": {
+    "lotNumber": ["(1T)", "(31T)"],
+    "manufacturingDate": ["(9D)", "(4D)", "(10D)", "(D)"],
+    "partNumber": ["(31P)", "30P", "6P", "1P"],
+    "quantity": ["(Q)"],
+    "id": "659d280f24af6e34c2c92107"
+  },
+  "delimiters": [";", ":", "#", ",", "+", "/"],
+  "company_list": [
+    "HOTTECH",
+    "LAIRD",
+    "CTK",
+    "SINCERA",
+    "ROYALOHM",
+    "VISHAY",
+    "NEXPERIA",
+    "ONSEMI",
+    "YAGEO",
+    "KEMET",
+    "SAMSUNG",
+    "KEYSTONE",
+    "PANJIT",
+    "BOURNS",
+    "INFINEON",
+    "DOMINANTOPTOTECHNOLOGIES",
+    "SMEC",
+    "TTI",
+    "TEXAS",
+    "KOA"
+  ],
+  "replace_chars": [":", "<", ">", "(", ")", " ", "|", "/"]
+}

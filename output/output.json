@@ -1,0 +1,72 @@
+[
+  {
+    "invoice_no": "NI23100236",
+    "invoice_date": "2023-10-20",
+    "mpn": "SP001286056",
+    "parts_name": "CONDENSER CERAMIC CHIP",
+    "maker": "INFENION",
+    "invoice_quantity": 12000,
+    "captured_quantity": 24000.0,
+    "completion_rate": 200.0
+  },
+  {
+    "invoice_no": "NI23100239",
+    "invoice_date": "2023-10-20",
+    "mpn": 934065642215,
+    "parts_name": "CONDENSER CERAMIC CHIP",
+    "maker": "NEXPERIA",
+    "invoice_quantity": 15000,
+    "captured_quantity": 9000.0,
+    "completion_rate": 60.0
+  },
+  {
+    "invoice_no": "NI23100236",
+    "invoice_date": "2023-10-20",
+    "mpn": "BZX84J-B5V1",
+    "parts_name": "CONDENSER CERAMIC CHIP",
+    "maker": "NEXPERIA",
+    "invoice_quantity": 9000,
+    "captured_quantity": 0.0,
+    "completion_rate": 0.0
+  },
+  {
+    "invoice_no": "NI23100239",
+    "invoice_date": "2023-10-20",
+    "mpn": "NX3008PBK",
+    "parts_name": "CPU",
+    "maker": "NEXPERIA",
+    "invoice_quantity": 9000,
+    "captured_quantity": 0.0,
+    "completion_rate": 0.0
+  },
+  {
+    "invoice_no": "NI23100239",
+    "invoice_date": "2023-10-20",
+    "mpn": "BZT52H-C18",
+    "parts_name": "TRANSISTOR CHIP",
+    "maker": "NEXPERIA",
+    "invoice_quantity": 6000,
+    "captured_quantity": 0.0,
+    "completion_rate": 0.0
+  },
+  {
+    "invoice_no": "NI23100279",
+    "invoice_date": "2023-10-20",
+    "mpn": "TBAT54C.LM",
+    "parts_name": "TRANSISTOR,CHIP",
+    "maker": "TOSHIBHA",
+    "invoice_quantity": 15000,
+    "captured_quantity": 0.0,
+    "completion_rate": 0.0
+  },
+  {
+    "invoice_no": "NI23100279",
+    "invoice_date": "2023-10-20",
+    "mpn": "SSM3J325F,LF",
+    "parts_name": "DIODES",
+    "maker": "TOSHIBHA",
+    "invoice_quantity": 9000,
+    "captured_quantity": 0.0,
+    "completion_rate": 0.0
+  }
+]
