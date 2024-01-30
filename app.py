@@ -21,7 +21,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# MongoDB connection URL (modify as needed)
 mongo_uri = config.get('MongoDb','data_base_url')
 database_name = config.get('MongoDb','data_base')
 collection_reelstock = config.get("MongoDb", "collection_reelstock")
