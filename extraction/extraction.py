@@ -153,10 +153,9 @@ class Extraction:
 
     @staticmethod
     def print_bar_code(item: dict) -> None:
-        # print("print",item)
         data = item["barcode"]
         unique_identifier = item["uniqueIdentifier"]
-        print(item["scanner"])
+        # print(item["scanner"])
         if item["scanner"] == "1":
             PrintBarcode.print_barcode_data(data, unique_identifier,item)
         elif item["scanner"] == "3":

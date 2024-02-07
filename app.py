@@ -7,7 +7,7 @@ from extraction.capture import print_barCode as printer
 from fastapi.responses import JSONResponse
 from config.config_parser import config
 import json
-from utils.database import db 
+# from utils.database import db 
 from utils.print_barcode import PrintBarcode as PB
 from utils import json_load
 # from utils.json_file_update import UpdateJsonFile
@@ -21,14 +21,14 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-mongo_uri = config.get('MongoDb','data_base_url')
-database_name = config.get('MongoDb','data_base')
-collection_reelstock = config.get("MongoDb", "collection_reelstock")
-collection_reelstock = db[collection_reelstock]
+# mongo_uri = config.get('MongoDb','data_base_url')
+# database_name = config.get('MongoDb','data_base')
+# collection_reelstock = config.get("MongoDb", "collection_reelstock")
+# collection_reelstock = db[collection_reelstock]
 json_file_load = json_load.json_file_read()
 # json_file_modifier = UpdateJsonFile()
 data_extractor_file_path = config.get("JsonFiles","data_extractor_file")
-
+print("Fast Api Server Connected!")
 
 # @app.post("/scanner/")
 # async def read_items(request:Request):
