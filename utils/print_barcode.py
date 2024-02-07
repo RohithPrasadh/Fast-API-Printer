@@ -6,10 +6,10 @@ from pystrich.datamatrix import DataMatrixEncoder
 from pdf417 import encode, render_image
 
 from config.config_parser import config
-from .database import db
+# from .database import db
 
 prnt_folder_path = config.get("Output", "print_output_folder")
-print(prnt_folder_path)
+# print(prnt_folder_path)
 
 class PrintBarcode:
     @staticmethod
